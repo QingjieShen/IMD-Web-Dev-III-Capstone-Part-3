@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Web Dev III Capston Part 3 Demo</title>
+</head>
+<body class="bg-black/80 text-white">
+    <div id="quize-app" class="max-w-[600px] w-full">
+        <div id="home-page" class="w-screen h-screen flex flex-col justify-center items-center">
+            <h1 class="mb-10">This is the Home Page</h1>
+            <button id="start-btn" class="bg-sky-500 px-4 py-2 rounded-lg">Take a Quiz</button>
+        </div>
+        <div id="question-page" class="hidden w-screen h-screen flex flex-col justify-center items-center">
+            <h1 class="mb-10">This is the question page</h1>
+            <div class="w-full flex justify-around">
+                <button id="prev-btn" class="bg-sky-500 px-4 py-2 rounded-lg">Previous</button>
+                <button id="next-btn" class="bg-sky-500 px-4 py-2 rounded-lg">Next</button>
+            </div>
+        </div>
+        <div id="details-page" class="hidden w-screen h-screen flex flex-col justify-center items-center">
+            <h1 class="mb-10">This is the details page</h1>
+            <button id="go-result-btn" class="bg-sky-500 px-4 py-2 rounded-lg">Return to Result page</button>
+        </div>
+        <div id="result-page" class="hidden w-screen h-screen flex flex-col justify-center items-center">
+            <h1 class="mb-10">This is the Result page</h1>
+            <div class="w-full flex justify-around">
+                <button id="go-details-btn" class="bg-sky-500 px-4 py-2 rounded-lg">Check Details</button>
+                <button id="go-home-btn" class="bg-sky-500 px-4 py-2 rounded-lg">Return to Home</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
