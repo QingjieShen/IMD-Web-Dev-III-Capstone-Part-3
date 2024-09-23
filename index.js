@@ -14,7 +14,7 @@ const goDetailBtn = document.getElementById('go-details-btn');
 const goHomeBtn = document.getElementById('go-home-btn');
 
 // listening to the buttons click event
-homePage.addEventListener('click', function () {
+startBtn.addEventListener('click', function () {
     homePage.classList.add('hidden');
     questionPage.classList.remove('hidden');
 })
